@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What does the main function do?",
+    "answer": "The main function initializes the application and starts the server."
+  },
+  {
+    "question": "How is the database connection handled?",
+    "answer": "Database connections are managed through a connection pool with automatic retry logic."
+  },
+  {
+    "question": "What are the main classes in this project?",
+    "answer": "The main classes include Config, RAGManager, CodeParser, and Evaluator."
+  },
+  {
+    "question": "How does error handling work?",
+    "answer": "Errors are caught and logged with appropriate error messages returned to the user."
+  },
+  {
+    "question": "What dependencies does this project use?",
+    "answer": "The project uses OpenAI API, ChromaDB, LangChain, and various Python libraries."
+  },
+  {
+    "question": "How is code chunking implemented?",
+    "answer": "Code chunking uses AST parsing for Python and regex patterns for other languages to extract logical blocks like functions and classes."
+  },
+  {
+    "question": "What is the purpose of the vector store?",
+    "answer": "The vector store stores code embeddings for semantic similarity search to retrieve relevant code snippets for questions."
+  },
+  {
+    "question": "How does the evaluation framework work?",
+    "answer": "The evaluation framework compares generated answers against reference answers using metrics like ROUGE, BLEU, and semantic similarity."
+  },
+  {
+    "question": "What is the MCP server used for?",
+    "answer": "The MCP server provides a standardized interface for code Q&A tools following the Model Context Protocol."
+  },
+  {
+    "question": "How are embeddings generated for code?",
+    "answer": "Code embeddings are generated using OpenAI's text-embedding models to create vector representations for similarity search."
+  }
+] 

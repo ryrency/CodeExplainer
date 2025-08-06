@@ -1,0 +1,36 @@
+# MCP Server dependencies
+mcp>=1.0.0
+pydantic>=2.0.0
+fastapi>=0.100.0
+uvicorn>=0.20.0
+
+# RAG and vector storage
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.10
+chromadb>=0.4.0
+
+# Code parsing and analysis
+tree-sitter>=0.20.0
+tree-sitter-python>=0.20.0
+libcst>=1.0.0
+
+# File handling and utilities
+pathlib>=1.0.0
+glob2>=0.7
+tqdm>=4.65.0
+
+# Evaluation and metrics
+rouge-score>=0.1.2
+nltk>=3.8.0
+scikit-learn>=1.3.0
+numpy>=1.24.0
+
+# LLM and agent tools
+openai>=1.0.0
+anthropic>=0.7.0
+
+# Development and testing
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0 

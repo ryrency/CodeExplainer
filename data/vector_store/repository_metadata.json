@@ -1,0 +1,17 @@
+{
+  "/Users/rencyjoseph/mcp-code-qa": {
+    "repository_path": "/Users/rencyjoseph/mcp-code-qa",
+    "files_processed": 25,
+    "chunks_created": 97,
+    "indexing_time": 3.934223175048828,
+    "last_indexed": "2025-08-05T19:01:56.021100",
+    "chunk_types": [
+      "function",
+      "module",
+      "class"
+    ],
+    "file_types": [
+      ".py"
+    ]
+  }
+}
